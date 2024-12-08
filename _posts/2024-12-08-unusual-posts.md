@@ -1,6 +1,6 @@
 ---
 
-title: Non-Tech post - amateur P\photography  
+title: Non-Tech post - amateur photography  
 date: 2024-12-08 00:00:00 +/-TTTT  
 categories: [photos, nature, timepass]  
 tags: [photos, nature, timepass] # TAG names should always be lowercase
