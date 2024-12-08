@@ -1,24 +1,23 @@
 ---
+
 # the default layout is 'page'
-icon: fas fa-info-circle
+
+icon: fas fa-info-circle  
 order: 4
+
 ---
 
-> {: .prompt-tip }
+I’m Prakash Ramesh. I’m all about tech and building systems that scale and stand the test of time. I’ve spent a good chunk of my career working on things like Service-Oriented Architecture (SOA), cloud tech, and designing distributed systems that actually work in the real world.
 
-I'm a tech enthusiast with a strong passion for building cool, scalable systems and helping organizations grow through innovation. I’ve spent a lot of time in the tech trenches, especially in areas like Service-Oriented Architecture (SOA), cloud technologies, and building large, distributed systems that actually work in the real world.
+Originally from Chennai, India, I’ve spent most of my professional life in the US, working with big enterprises and awesome teams. I’ve helped design tech solutions for everything from cloud deployments to containerization and performance scaling. I’m the kind of person who loves diving into the details to make sure everything runs smoothly—and I’ve gotten pretty good at it!
 
-Over the years, I’ve worked with some amazing teams to design and architect tech solutions that tackle everything from cloud deployment to containerization and performance scaling. I love diving into the details and figuring out how to make things run smoothly—and I’ve gotten pretty good at it!
+Lately, I’m really into AI Ops, observability, and Site Reliability Engineering (SRE). I’ve even coached teams on Chaos Engineering and led initiatives to make systems more reliable and self-healing. It’s a fun challenge, and I’m all about keeping things running smoothly at scale.
 
-I’m also super into AI Ops, observability, and Site Reliability Engineering (SRE). In fact, I’ve had the chance to coach teams on Chaos Engineering and lead efforts to make systems more reliable and self-healing. It’s a challenge I love, and it’s all about keeping things up and running at scale.
+When I’m not geeking out over tech, you’ll find me hiking, traveling, or trying to snap a good photo. If you’re in the Bay Area, you’ll probably catch me on a trail somewhere.
 
-I’ve had the chance to work across a ton of different industries—like manufacturing, aerospace, automotive, and even human experience management (SAP-HXM). I’ve also gotten deep into integration platforms like Salesforce and MuleSoft, so if you’re into that kind of stuff, we’re probably on the same page!
+![yosemite](/assets/images/yosemite.jpg)  
+_Here's one from woods of Yosemite!_
 
-Oh, and I’m a Certified Kubernetes Administrator (CKA), Certified Kubernetes Application Developer (CKAD), and an Adobe Certified Expert (ACE). Basically, I’m always trying to level up my skills and stay ahead of the curve.
-
-On this blog, I share my thoughts on all things tech—from cloud-native architectures to AI Ops, SRE, and whatever else is keeping me busy. I hope you’ll find something useful, and feel free to drop me a message if you want to chat about tech or just geek out over the latest trends. Let’s learn and grow together!
+On this blog, I’ll be sharing my thoughts and whatever’s keeping me busy. Hopefully, you’ll find something useful! If you want to chat about tech or geek out over the latest trends, feel free to reach out. Let’s learn and grow together! You can hit me up on [LinkedIn](https://www.linkedin.com/in/prakash-ramesh-pr/)
 
 Thanks for stopping by!
-
-https://www.linkedin.com/in/prakash-ramesh-pr/ 
-
