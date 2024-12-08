@@ -1,6 +1,6 @@
 ---
 
-title: Photos - Non tech post- Amaetaur Photography  
+title: Non-Tech post - amateur P\photography  
 date: 2024-12-08 00:00:00 +/-TTTT  
 categories: [photos, nature, timepass]  
 tags: [photos, nature, timepass] # TAG names should always be lowercase
