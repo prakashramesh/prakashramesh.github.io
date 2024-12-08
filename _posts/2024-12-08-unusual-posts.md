@@ -16,7 +16,7 @@ tags: [photos, nature, timepass] # TAG names should always be lowercase
 > ![](/assets/images/hobby/img7.jpeg)  
 {%
   include embed/video.html
-  src='/assets/images/hobby/img8.MP4'
+  src='/assets/images/hobby/img8.mp4'
   types='mp4'
   poster='/assets/images/hobby/img7.jpeg'
   title='video'
