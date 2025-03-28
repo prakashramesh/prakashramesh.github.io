@@ -27,7 +27,7 @@ Our systems' carbon footprint is directly tied to architectural decisions. Consi
 
 ## Core Architectural Patterns for Sustainable Systems
 
-### 1. Resource Optimization Architecture
+### 1. Resource Optimization  
 
 ![Resource Architecture](/assets/images/carbon-footprint/resource-optimization.png)
 *System resource optimization patterns and their implementation*
