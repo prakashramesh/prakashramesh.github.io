@@ -3,17 +3,11 @@ title: Architecting Sustainable Systems - A Performance Engineering Approach to 
 date: 2024-03-19 00:00:00 +/-TTTT
 categories: [performance engineering, sustainability]
 tags: [performance, sustainability, carbon-footprint, green-computing, architecture]
-image:
-  path: /assets/images/carbon-footprint/header.jpg
-  alt: Sustainable System Architecture Visualization
 ---
 
 # Architecting Sustainable Systems Through Performance Engineering
 
 As a Performance Engineering Architect, I've observed that system sustainability isn't just an environmental concern—it's a critical architectural consideration that impacts system reliability, operational costs, and overall performance. This post explores the architectural patterns and technical strategies for building sustainable systems through performance engineering.
-
-![System Architecture Carbon Impact](/assets/images/carbon-footprint/tech-carbon-impact.png)
-*Architectural decisions and their impact on system carbon footprint*
 
 ## The Technical Case for Carbon-Aware Architecture
 
@@ -22,15 +16,9 @@ Our systems' carbon footprint is directly tied to architectural decisions. Consi
 - Each CPU cycle contributes to power consumption (P = C × V² × F)
 - Network traffic accounts for significant energy overhead (~2.4 kWh per GB)
 
-![Data Center Architecture](/assets/images/carbon-footprint/datacenter-energy.jpg)
-*Architectural components and their energy consumption patterns*
-
 ## Core Architectural Patterns for Sustainable Systems
 
-### 1. Resource Optimization  
-
-![Resource Architecture](/assets/images/carbon-footprint/resource-optimization.png)
-*System resource optimization patterns and their implementation*
+### 1. Resource Optimization Architecture
 
 ```java
 // Example: Implementing resource pooling pattern
@@ -64,9 +52,6 @@ Key Implementation Patterns:
 
 ### 2. Load Distribution Architecture
 
-![Load Distribution](/assets/images/carbon-footprint/load-balancing.png)
-*Advanced load distribution patterns for energy efficiency*
-
 ```python
 # Example: Energy-aware load balancer
 class EnergyAwareLoadBalancer:
@@ -94,9 +79,6 @@ Architectural Considerations:
   - Design for request coalescing
 
 ### 3. Performance Optimization Patterns
-
-![Code Architecture](/assets/images/carbon-footprint/code-optimization.jpg)
-*Performance optimization patterns and their energy impact*
 
 ```typescript
 // Example: Implementing the Command Query Responsibility Segregation (CQRS) pattern
@@ -129,9 +111,6 @@ Key Patterns:
 
 ### 4. Observability Architecture
 
-![Monitoring Architecture](/assets/images/carbon-footprint/monitoring-metrics.png)
-*Advanced monitoring architecture for energy-aware systems*
-
 ```go
 // Example: Energy metrics collector
 type EnergyMetrics struct {
@@ -151,9 +130,6 @@ Implementation Requirements:
 - Carbon footprint metrics collection
 
 ## Architectural Implementation Strategy
-
-![Implementation Architecture](/assets/images/carbon-footprint/implementation-roadmap.png)
-*System architecture implementation roadmap*
 
 ### Phase 1: Architecture Assessment
 ```yaml
@@ -198,9 +174,6 @@ continuous_optimization:
 
 ## Technical Tools and Frameworks
 
-![Architecture Tools](/assets/images/carbon-footprint/green-tech-tools.png)
-*Technical toolkit for sustainable system architecture*
-
 Essential Tools:
 - Prometheus for energy metrics
 - Grafana for visualization
@@ -208,9 +181,6 @@ Essential Tools:
 - Custom energy profilers
 
 ## Architectural Benefits
-
-![Architecture Benefits](/assets/images/carbon-footprint/triple-bottom-line.png)
-*Architectural benefits of sustainable system design*
 
 1. **System Efficiency**
    ```python
@@ -235,9 +205,6 @@ Essential Tools:
    ```
 
 ## Implementation Guide
-
-![Architecture Implementation](/assets/images/carbon-footprint/getting-started.png)
-*Technical implementation guide*
 
 1. **System Analysis**
    ```python
@@ -270,9 +237,6 @@ Essential Tools:
    ```
 
 ## Future Architecture Considerations
-
-![Future Architecture](/assets/images/carbon-footprint/green-future.jpg)
-*Next-generation sustainable system architecture*
 
 The future of sustainable system architecture lies in:
 - Quantum-inspired optimization algorithms
