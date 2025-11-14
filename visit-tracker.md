@@ -200,7 +200,7 @@ description: Hidden visit tracking page
     // JSONBin.io - Free JSON storage service
     // Replace 'YOUR_BIN_ID' with your actual bin ID from jsonbin.io
     // To get a bin ID: 1. Go to https://jsonbin.io 2. Create a free account 3. Create a new bin 4. Copy the bin ID
-    const JSONBIN_BIN_ID = '6916a610d0ea881f40e7573d';
+    const JSONBIN_BIN_ID = '6916ad95ae596e708f581c1d';
     const JSONBIN_API_URL = 'https://api.jsonbin.io/v3/b/' + JSONBIN_BIN_ID;
     const JSONBIN_API_KEY = ''; // Optional: Add your API key for private bins (get from jsonbin.io)
     
