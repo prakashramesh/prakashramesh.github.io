@@ -202,7 +202,7 @@ description: Track visits to this site from various geolocations around the worl
     // Replace 'YOUR_BIN_ID' with your actual bin ID from jsonbin.io
     // To get a bin ID: 1. Go to https://jsonbin.io 2. Create a free account 3. Create a new bin 4. Copy the bin ID
     const JSONBIN_BIN_ID = '6916a610d0ea881f40e7573d'; // TODO: Replace with your actual bin ID
-    const JSONBIN_API_URL = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`;
+    const JSONBIN_API_URL = 'https://api.jsonbin.io/v3/b/' + JSONBIN_BIN_ID;
     const JSONBIN_API_KEY = ''; // Optional: Add your API key for private bins (get from jsonbin.io)
     
     let map = null;
@@ -276,14 +276,7 @@ description: Track visits to this site from various geolocations around the worl
         
         const customIcon = L.divIcon({
           className: 'custom-marker',
-          html: `<div style="
-            background-color: ${iconColor};
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 2px solid white;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-          "></div>`,
+          html: '<div style="background-color: ' + iconColor + '; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 6px rgba(0,0,0,0.4);"></div>',
           iconSize: [14, 14],
           iconAnchor: [7, 7]
         });
@@ -293,14 +286,14 @@ description: Track visits to this site from various geolocations around the worl
         // Add popup with visit info
         const date = new Date(visit.timestamp);
         const formattedDate = date.toLocaleString();
-        marker.bindPopup(`
-          <div style="min-width: 200px;">
-            <strong>${visit.city}, ${visit.country}</strong><br>
-            <small>${visit.region}</small><br>
-            <small style="color: #666;">${formattedDate}</small><br>
-            <small style="color: #999;">IP: ${visit.ip}</small>
-          </div>
-        `);
+        marker.bindPopup(
+          '<div style="min-width: 200px;">' +
+            '<strong>' + visit.city + ', ' + visit.country + '</strong><br>' +
+            '<small>' + visit.region + '</small><br>' +
+            '<small style="color: #666;">' + formattedDate + '</small><br>' +
+            '<small style="color: #999;">IP: ' + visit.ip + '</small>' +
+          '</div>'
+        );
 
         markers.push(marker);
         bounds.extend([lat, lng]);
@@ -470,14 +463,14 @@ description: Track visits to this site from various geolocations around the worl
       document.getElementById('total-visits').textContent = visits.length;
       
       // Count unique locations
-      const uniqueLocations = new Set(visits.map(v => `${v.city}, ${v.country}`));
+      const uniqueLocations = new Set(visits.map(v => v.city + ', ' + v.country));
       document.getElementById('unique-locations').textContent = uniqueLocations.size;
       
       // Show current location
       if (visits.length > 0) {
         const current = visits[0];
         document.getElementById('current-location').textContent = 
-          `${current.city}, ${current.country}`;
+          current.city + ', ' + current.country;
       } else {
         document.getElementById('current-location').textContent = '-';
       }
@@ -498,14 +491,13 @@ description: Track visits to this site from various geolocations around the worl
         const date = new Date(visit.timestamp);
         const formattedDate = date.toLocaleString();
         
-        row.innerHTML = `
-          <td>${formattedDate}</td>
-          <td>${visit.city}, ${visit.country}</td>
-          <td>${visit.city}</td>
-          <td>${visit.region}</td>
-          <td>${visit.country} (${visit.countryCode})</td>
-          <td>${visit.ip}</td>
-        `;
+        row.innerHTML = 
+          '<td>' + formattedDate + '</td>' +
+          '<td>' + visit.city + ', ' + visit.country + '</td>' +
+          '<td>' + visit.city + '</td>' +
+          '<td>' + visit.region + '</td>' +
+          '<td>' + visit.country + ' (' + visit.countryCode + ')</td>' +
+          '<td>' + visit.ip + '</td>';
         
         tbody.appendChild(row);
       });
