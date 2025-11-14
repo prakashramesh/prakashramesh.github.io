@@ -193,6 +193,7 @@ description: Track visits to this site from various geolocations around the worl
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
 
+{% raw %}
 <script>
   (function() {
     // API endpoints
@@ -546,4 +547,5 @@ description: Track visits to this site from various geolocations around the worl
     }
   })();
 </script>
+{% endraw %}
 
